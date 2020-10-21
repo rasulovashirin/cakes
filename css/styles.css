@@ -211,22 +211,7 @@ line-height: normal;
   width: 250px;
   background-image: url("../img/gift.png");
 }
- /* .hero-section__about::before{
-   display: block;
-  width: 55px;
-  height: 55px;
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 12px;
-  content: "";
-}
-.hero-section__about--ing::before{
-  background-image: url("../img/hero-icon.png");
-}
-.hero-section__about--order::before{
-  background-image: url("../img/gift.png");
-} */
+ 
 .button{
   display: inline-flex;
   vertical-align: baseline;

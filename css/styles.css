@@ -195,14 +195,15 @@ line-height: normal;
   font-style: normal;
   letter-spacing: normal;
   line-height: 18px;
-  padding-top: 15px;
+  width: 250px;
+  /* padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 70px;
   background-position: left top;
   background-size: 55px 55xp;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
-.hero-section__about--ing{
+/* .hero-section__about--ing{
   width: 200px;
   background-image: url("../img/hero-icon.png");
   margin-right: 70px;
@@ -210,8 +211,23 @@ line-height: normal;
 .hero-section__about--order{
   width: 250px;
   background-image: url("../img/gift.png");
+} */
+ .hero-section__about::before{
+   display: block;
+  min-width: 55px;
+  height: 55px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  content: "";
 }
- 
+.hero-section__about--ing::before{
+  background-image: url("../img/hero-icon.png");
+}
+.hero-section__about--order::before{
+  background-image: url("../img/gift.png");
+}
 .button{
   display: inline-flex;
   vertical-align: baseline;

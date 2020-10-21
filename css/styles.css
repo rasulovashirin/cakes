@@ -163,7 +163,7 @@ padding-bottom: 102px;
   margin-bottom: 31px;
 width: 353px;
 color: #2e2829;
-font-family: "Playfair Display","Arial", sans-serif;
+font-family: "Playfair Display","Times New Roman", serif;
 font-size: 78px;
 font-weight: 700;
 line-height: 70px;
@@ -175,7 +175,7 @@ line-height: normal;
   margin-top: 0;
   margin-bottom: 58px;
   color: #32313d;
-  font-family: "Pacifico","Arial", sans-serif;
+  font-family: "Pacifico", cursive;
   font-size: 41px;
   font-weight: 400;
   font-style: normal;
@@ -184,6 +184,7 @@ line-height: normal;
 }
 .hero-section__info-bottom{
  display: inline-flex;
+ align-items: center;
 }
 .hero-section__about{
   margin: 0;
@@ -203,7 +204,8 @@ line-height: normal;
 }
 .hero-section__about--ing{
   width: 200px;
-  background-image: url("../img/hero-icon.png")
+  background-image: url("../img/hero-icon.png");
+  margin-right: 70px;
 }
 .hero-section__about--order{
   width: 250px;
